@@ -26,3 +26,6 @@ python main.py
 
 ## 默认摄像机地址
 rtsp://用户名:密码@ip:554/stream1
+
+## 乐橙流
+/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif
