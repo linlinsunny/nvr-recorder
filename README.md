@@ -21,6 +21,9 @@ pip install -r requirements.txt
 ## 安装 ffmpeg
 ### windows
 https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z
+然后加入环境里自己找教程。
+或者（基本下载不了需要mf）
+choco install ffmpeg 
 ### mac
 brew install ffmpeg
 ## 运行
