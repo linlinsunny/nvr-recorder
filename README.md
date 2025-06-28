@@ -18,7 +18,11 @@
 ```bash
 pip install -r requirements.txt
 ```
-
+## 安装 ffmpeg
+### windows
+https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z
+### mac
+brew install ffmpeg
 ## 运行
 ```bash
 python main.py
