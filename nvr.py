@@ -10,7 +10,7 @@ class NVRRecorder(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('网络摄像机录像工具')
-        self.rtsp_url = 'rtsp://admin:BenBenxin1212@192.168.31.211:554/stream1'
+        self.rtsp_url = 'rtsp://admin:BenBenxin1212@192.168.31.211:554//cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif'
         self.is_previewing = False
         self.is_recording = False
         self.ffmpeg_process = None
@@ -33,7 +33,7 @@ class NVRRecorder(QWidget):
         self.pwd_input = QLineEdit('BenBenxin1212')
         self.pwd_input.setEchoMode(QLineEdit.Password)
         self.protocol_input = QLineEdit('rtsp')
-        self.stream_input = QLineEdit('/stream1')
+        self.stream_input = QLineEdit('/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif')
 
         # 预览区
         self.preview_label = QLabel('未开启预览')
